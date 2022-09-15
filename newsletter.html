@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Milosuv super obchudek</title>
+    <link rel="icon" type="image/x-icon" href="shopping-cart.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 25%;
+            background: #ccc;
+            padding: 20px;
+        }
+
+            /* Style the list inside the menu */
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 75%;
+            background-color: #f1f1f1;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Newsletter</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hlavni Stranka</a></li>
+                <li><a href="https://www.spsejecna.cz/" target="_blank">SPSE Jecna</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <p>Nullam dapibus fermentum ipsum. Nulla non lectus sed nisl molestie malesuada. Nullam at arcu a est sollicitudin euismod. Mauris tincidunt sem sed arcu. Vivamus luctus egestas leo. Fusce tellus. Nullam sit amet magna in magna gravida vehicula. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Fusce aliquam vestibulum ipsum. Praesent dapibus. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Duis pulvinar. Aenean placerat. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Mauris tincidunt sem sed arcu. Aenean id metus id velit ullamcorper pulvinar. Donec quis nibh at felis congue commodo. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Curabitur sagittis hendrerit ante.</p>
+        </article>
+        //asjkarnf
+    </section>
+
+    <footer>
+        <p>Autor: Milos Tesar C3b</p>
+    </footer>
+
+</body>
+</html>
